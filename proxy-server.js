@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.post("/api", async (req, res) => {
   try {
-    const response = await fetch("http://localhost:7860", {
+    const response = await fetch("https://18accf25e5f53c9552.gradio.live/run/predict", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(req.body),
