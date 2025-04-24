@@ -1,0 +1,11 @@
+gradio
+joblib
+pandas
+scikit-learn
+xgboost
+requests
+beautifulsoup4
+lxml
+matplotlib
+seaborn
+imblearn
