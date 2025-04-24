@@ -2,9 +2,9 @@
   "name": "review-proxy-backend",
   "version": "1.0.0",
   "main": "index.js",
- "scripts": {
-  "start": "node proxy-server.js"
-},
+  "scripts": {
+    "start": "node proxy-server.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -12,6 +12,6 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^2.7.0"
   }
 }
